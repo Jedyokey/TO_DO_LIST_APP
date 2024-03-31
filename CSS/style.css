@@ -9,27 +9,29 @@ body {
 }
 .app {
     font-family: "Roboto", sans-serif;
-/*     width: min(95vw, 31.25em); 
+    width: min(95vw, 31.25em); 
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-    top: 30px; */ 
+    top: 30px; 
 }
 .container {
     padding: 2em 2.5em;
     background-color: #f1f8fb;
     box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
     border-radius: 0.8em;
-    width: 40%;
-    margin: auto;
-    margin-top: 40px;
+    width: 100%;
+    overflow-x: hidden;
+/*     margin: auto;
+    margin-top: 40px; */
 }
 .wrapper {
     position: relative;
     display: grid;
     grid-template-columns: 8fr 4fr;
     gap: 1em;
+    overflow-x: hidden;
 }
 .wrapper input {
     width: 100%;
@@ -141,7 +143,7 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
     .container {
         width: 70%;
     }
@@ -151,4 +153,4 @@ body {
         width: 95%;
         padding: 2em 1.5em;
     }
-}
+} */
